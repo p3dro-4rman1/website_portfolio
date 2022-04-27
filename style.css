@@ -1,0 +1,82 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section{
+    font-size: 35px;
+    border: solid 1px black;
+    padding: 25px;
+}
+
+ul li{
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    margin: 15px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+
+a:hover{
+    background-color: black;
+    color: white;
+}
+
+.flexbox{
+    display: flex;
+    justify-content: center;
+    margin: 35px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    border: solid 1px black;
+    width: fit-content;
+    margin: auto;
+    padding: 8px;
+}
+
+input[type = email], textarea{
+    border: solid 1px black;
+}
+
+input[type = email]{
+    width: 550px;
+    height: 35px;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+} 
+
+button{
+    width: 550px;
+    height: 55px;
+    font-size: 20px;
+    margin: 18px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+textarea{
+    width: 550px;
+    height: 450px;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    resize: none;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 375px) {
+    body {
+        
+    }
+  }
